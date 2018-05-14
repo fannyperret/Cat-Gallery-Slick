@@ -1,17 +1,13 @@
 $(document).ready(function() {
-  $('.gallery').slick( {
-    dots: true,
-    arrows: false,
-    speed: 1000,
+  $('#slider').slick( {
 
-    slidesToShow: 1,
-
-    centerMode: true,
-    variableWidth: true,
-
+    infinite: true,
     autoplay: true,
     autoplaySpeed: 5000,
+    adaptiveHeight: true,
 
+    fade: true
 
-  });
-});
+  })
+
+})
